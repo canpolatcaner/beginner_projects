@@ -1,7 +1,8 @@
 #material and group management
-import stock_module.delete_operations
+import stock_module.create_new_product_type
 import stock_module.create_new_group_type       
-import stock_module.create_new_material_type     
+import stock_module.create_new_material_type  
+import stock_module.stock_delete_operations_management   
 
 def boss():
     while True:
@@ -11,8 +12,9 @@ def boss():
         print("║                                 ║")
         print("║  1-Yeni Malzeme Türü Oluştur    ║")
         print("║  2-Yeni Grup Türü Oluştur       ║")
+        print("║  3-Yeni Ürün Türü Oluştur       ║")
         print("║                                 ║")
-        print("║  3-Silme İşlemleri !!!          ║")
+        print("║  4-Silme İşlemleri !!!          ║")
         print("║    1-Ürün Sil                   ║")
         print("║    2-Grup Sil                   ║")
         print("║    3-Malzeme Türü Sil           ║")
@@ -33,14 +35,19 @@ def boss():
                 print(f"{a}'ye bastınız; Yeni Grup Türü Oluştur kısmına yönlendiriliyorsunuz.\n\n")
                 stock_module.create_new_group_type.boss()
             elif a == 3:
+                print(f"{a}'ye bastınız; Yeni Ürün Türü Oluştur kısmına yönlendiriliyorsunuz.\n\n")
+                stock_module.create_new_product_type.boss()
+            elif a == 4:    
                 print(f"{a}'ye bastınız; Silme İşlemleri kısmına yönlendiriliyorsunuz.\n\n")
-                stock_module.delete_operations.boss()
+                stock_module.stock_delete_operations_management.boss()
             elif a == 0:
                 print('Programdan çıkılıyor...')
                 break
             else:
                 print("Lütfen MALZEME VE GRUP YÖNETİMİ'nde belirtilen işlemlerden birini seçiniz!\n"*3)
         except ValueError:
-            print("Hata: Lütfen sayı giriniz!")
+            print("Hata: Lütfen işleme ait numarayı girerek işlem yapınız!")
 if __name__ == "__main__":
     boss()
+def hierarchical_id_create(material, group, product):
+    return f"{material}.{group}.{product}"

@@ -29,6 +29,6 @@ def boss():
             else:
                 print("Lütfen ÜRÜN EKLEME İŞLEMLERİ'nde belirtilen işlemlerden birini seçiniz!\n"*3)
         except ValueError:
-            print("Hata: Lütfen sayı giriniz!")
+            print("Hata: Lütfen işleme ait numarayı girerek işlem yapınız!!")
 if __name__ == "__main__":
     boss()
