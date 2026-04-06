@@ -1,0 +1,232 @@
+{
+    "log": [
+        {
+            "zaman": "2026-03-31 16:01:34",
+            "urun_id": "2.1.1.PINAR.1",
+            "urun_ad": "PINAR Labne 250 gr",
+            "miktar": 12.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "04-4",
+            "stt": "30.06.2026",
+            "batch_id": "B-03301731"
+        },
+        {
+            "zaman": "2026-03-31 16:03:54",
+            "urun_id": "1.1.3.DOMESTOS.4",
+            "urun_ad": "DOMESTOS Yüzey temizleyici",
+            "miktar": 15.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "75-0",
+            "stt": "30.03.2030",
+            "batch_id": "B-20260330164852"
+        },
+        {
+            "zaman": "2026-04-01 16:17:30",
+            "urun_id": "1.5.1.AVANSAS DAILY FOTOKOPI KAĞIDI.1",
+            "urun_ad": "AVANSAS DAILY FOTOKOPI KAĞIDI A4 fotokopi kağıdı",
+            "miktar": 5.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "16-b3",
+            "stt": "15.10.2027",
+            "batch_id": "B-04011616"
+        },
+        {
+            "zaman": "2026-04-01 16:18:48",
+            "urun_id": "1.5.1.AVANSAS DAILY FOTOKOPI KAĞIDI.1",
+            "urun_ad": "AVANSAS DAILY FOTOKOPI KAĞIDI A4 fotokopi kağıdı",
+            "miktar": 2.0,
+            "islem": "STOK_ANORMAL_DUSUS",
+            "neden": "2- Uygunsuz Ürün",
+            "kaynak_lokasyon": "16-b3",
+            "stt": "15.10.2027",
+            "batch_id": "B-04011616"
+        },
+        {
+            "zaman": "2026-04-01 16:19:41",
+            "urun_id": "1.5.1.AVANSAS DAILY FOTOKOPI KAĞIDI.1",
+            "urun_ad": "AVANSAS DAILY FOTOKOPI KAĞIDI A4 fotokopi kağıdı",
+            "miktar": 2.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "16-b3",
+            "stt": "15.10.2027",
+            "batch_id": "B-04011616"
+        },
+        {
+            "zaman": "2026-04-01 16:55:16",
+            "urun_id": "2.1.1.PINAR.1",
+            "urun_ad": "PINAR Labne 250 gr",
+            "miktar": 1.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "04-4",
+            "stt": "30.06.2026",
+            "batch_id": "B-03301731"
+        },
+        {
+            "zaman": "2026-04-01 17:13:54",
+            "urun_id": "1.5.1.AVANSAS DAILY FOTOKOPI KAĞIDI.1",
+            "urun_ad": "AVANSAS DAILY FOTOKOPI KAĞIDI A4 fotokopi kağıdı",
+            "miktar": 6.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "16-b3",
+            "stt": "15.10.2027",
+            "batch_id": "B-04011616"
+        },
+        {
+            "zaman": "2026-04-01 17:14:31",
+            "urun_id": "1.5.1.AVANSAS DAILY FOTOKOPI KAĞIDI.1",
+            "urun_ad": "AVANSAS DAILY FOTOKOPI KAĞIDI A4 fotokopi kağıdı",
+            "miktar": 5.0,
+            "islem": "STOK_SATIS_IADE",
+            "neden": "1- Satıştan Geri İade - 2- Uygunsuz Ürün",
+            "kaynak_lokasyon": "16-b3",
+            "stt": "15.10.2027",
+            "batch_id": "B-04011616"
+        },
+        {
+            "zaman": "2026-04-01 17:19:27",
+            "urun_id": "1.5.1.AVANSAS DAILY FOTOKOPI KAĞIDI.1",
+            "urun_ad": "AVANSAS DAILY FOTOKOPI KAĞIDI A4 fotokopi kağıdı",
+            "miktar": 2.0,
+            "islem": "STOK_ANORMAL_DUSUS",
+            "neden": "2- Depodan İade - 2- Uygunsuz Ürün",
+            "kaynak_lokasyon": "16-b3",
+            "stt": "15.10.2027",
+            "batch_id": "B-04011616"
+        },
+        {
+            "zaman": "2026-04-01 17:22:58",
+            "urun_id": "1.5.1.AVANSAS DAILY FOTOKOPI KAĞIDI.1",
+            "urun_ad": "AVANSAS DAILY FOTOKOPI KAĞIDI A4 fotokopi kağıdı",
+            "miktar": 1.0,
+            "islem": "STOK_ANORMAL_DUSUS (Müşteri Geri İade)",
+            "neden": "1- Satıştan Geri İade - 2- Uygunsuz Ürün",
+            "kaynak_lokasyon": "16-b3",
+            "stt": "15.10.2027",
+            "batch_id": "B-04011616"
+        },
+        {
+            "zaman": "2026-04-02 14:29:20",
+            "urun_id": "1.1.3.DOMESTOS.4",
+            "urun_ad": "DOMESTOS Yüzey temizleyici",
+            "miktar": 15.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "75-0",
+            "stt": "30.03.2030",
+            "batch_id": "B-20260330164852"
+        },
+        {
+            "zaman": "2026-04-02 14:47:58",
+            "urun_id": "1.1.1.PERWOLL.2",
+            "urun_ad": "PERWOLL Renkli sıvı deterjan 50 yıkama",
+            "miktar": 1.0,
+            "islem": "MUSTERI_IADE_KUSURLU",
+            "neden": "kapağı kırık"
+        },
+        {
+            "zaman": "2026-04-02 14:56:02",
+            "urun_id": "1.1.1.PERWOLL.2",
+            "urun_ad": "PERWOLL Renkli sıvı deterjan 50 yıkama",
+            "miktar": 1.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "IADE-RAFI",
+            "stt": "01.01.2099",
+            "batch_id": "IADE-04021449"
+        },
+        {
+            "zaman": "2026-04-02 15:11:19",
+            "urun_id": "1.1.1.PERWOLL.2",
+            "urun_ad": "PERWOLL Renkli sıvı deterjan 50 yıkama",
+            "miktar": 1.0,
+            "islem": "STOK_ANORMAL_DUSUS (Depodan İade)",
+            "neden": "2- Depodan İade - 2- Uygunsuz Ürün",
+            "kaynak_lokasyon": "IADE-RAFI",
+            "stt": "01.01.2099",
+            "batch_id": "IADE-04021454"
+        },
+        {
+            "zaman": "2026-04-02 15:15:21",
+            "urun_id": "2.1.1.DOST.1",
+            "urun_ad": "DOST Küçük süt 250 ml",
+            "miktar": 6.0,
+            "islem": "STOK_ANORMAL_DUSUS (Müşteri Geri İade)",
+            "neden": "1- Satıştan Geri İade - 1- Bozuk Ürün",
+            "kaynak_lokasyon": "03-4",
+            "stt": "13.04.2026",
+            "batch_id": "B-20260330163932"
+        },
+        {
+            "zaman": "2026-04-02 15:19:49",
+            "urun_id": "1.1.1.PERWOLL.2",
+            "urun_ad": "PERWOLL Renkli sıvı deterjan 50 yıkama",
+            "miktar": 4.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "IADE-RAFI",
+            "stt": "01.01.2099",
+            "batch_id": "IADE-04021454"
+        },
+        {
+            "zaman": "2026-04-02 15:23:14",
+            "urun_id": "2.1.1.SEK.1",
+            "urun_ad": "SEK Tam yağlı",
+            "miktar": 30.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "01-b7",
+            "stt": "13.09.2026",
+            "batch_id": "B-04021522"
+        },
+        {
+            "zaman": "2026-04-06 10:38:02",
+            "urun_id": "2.1.1.PINAR.1",
+            "urun_ad": "PINAR Labne 250 gr",
+            "miktar": 12.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "04-4",
+            "stt": "30.06.2026",
+            "batch_id": "B-03301731"
+        },
+        {
+            "zaman": "2026-04-06 10:55:29",
+            "urun_id": "2.1.1.DOST.1",
+            "urun_ad": "DOST Küçük süt 250 ml",
+            "miktar": 2.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "03-4",
+            "stt": "13.04.2026",
+            "batch_id": "B-20260330163932"
+        },
+        {
+            "zaman": "2026-04-06 12:32:17",
+            "urun_id": "1.2.1.BLENDAX.1",
+            "urun_ad": "BLENDAX Kepeğe karşı etkili argan",
+            "miktar": 10.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "09-C4",
+            "stt": "01.02.2029",
+            "batch_id": "B-04061231"
+        },
+        {
+            "zaman": "2026-04-06 12:33:00",
+            "urun_id": "1.2.1.BLENDAX.2",
+            "urun_ad": "BLENDAX Bahar esintisi",
+            "miktar": 5.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "09-C3",
+            "stt": "01.12.2028",
+            "batch_id": "B-04061230"
+        }
+    ]
+}

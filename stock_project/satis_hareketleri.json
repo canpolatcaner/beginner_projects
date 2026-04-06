@@ -1,0 +1,14 @@
+{
+    "satislar": [
+        {
+            "satis_zamani": "2026-04-02 15:23:53",
+            "urun_id": "2.1.1.SEK.1",
+            "urun_ad": "SEK Tam yağlı",
+            "batch_id": "B-04021522",
+            "miktar": 2.0,
+            "maliyet": 6.78,
+            "satis_fiyati": 0,
+            "toplam": 0.0
+        }
+    ]
+}

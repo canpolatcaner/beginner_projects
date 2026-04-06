@@ -1,0 +1,110 @@
+{
+    "1.1.3.DOMESTOS.4": {
+        "urun_ad": "DOMESTOS Yüzey temizleyici",
+        "partiler": [
+            {
+                "batch_id": "B-20260330164852",
+                "miktar_mevcut": 15.0,
+                "maliyet": 68.27,
+                "satis_fiyati": 0,
+                "reyona_giris_tarihi": "2026-04-02 14:29:20",
+                "stt": "30.03.2030",
+                "son_satis_zamani": null
+            }
+        ]
+    },
+    "1.1.1.PERWOLL.2": {
+        "urun_ad": "PERWOLL Renkli sıvı deterjan 50 yıkama",
+        "partiler": [
+            {
+                "batch_id": "IADE-04021449",
+                "miktar_mevcut": 1.0,
+                "maliyet": 0,
+                "satis_fiyati": 0,
+                "reyona_giris_tarihi": "2026-04-02 14:56:02",
+                "stt": "01.01.2099",
+                "son_satis_zamani": null
+            },
+            {
+                "batch_id": "IADE-04021454",
+                "barkod": "00010101814545",
+                "miktar_mevcut": 4.0,
+                "maliyet": 0,
+                "satis_fiyati": 0,
+                "reyona_giris_tarihi": "2026-04-02 15:19:49",
+                "stt": "01.01.2099"
+            }
+        ]
+    },
+    "2.1.1.SEK.1": {
+        "urun_ad": "SEK Tam yağlı",
+        "partiler": [
+            {
+                "batch_id": "B-04021522",
+                "barkod": "VB-1011",
+                "miktar_mevcut": 28.0,
+                "maliyet": 6.78,
+                "satis_fiyati": 0,
+                "reyona_giris_tarihi": "2026-04-02 15:23:14",
+                "stt": "13.09.2026",
+                "son_satis_zamani": "2026-04-02 15:23:53"
+            }
+        ]
+    },
+    "2.1.1.PINAR.1": {
+        "urun_ad": "PINAR Labne 250 gr",
+        "partiler": [
+            {
+                "batch_id": "B-03301731",
+                "barkod": "VB-1001",
+                "miktar_mevcut": 12.0,
+                "maliyet": 85.6,
+                "satis_fiyati": 0,
+                "reyona_giris_tarihi": "2026-04-06 10:38:02",
+                "stt": "30.06.2026"
+            }
+        ]
+    },
+    "2.1.1.DOST.1": {
+        "urun_ad": "DOST Küçük süt 250 ml",
+        "partiler": [
+            {
+                "batch_id": "B-20260330163932",
+                "barkod": "VB-1007",
+                "miktar_mevcut": 2.0,
+                "maliyet": 9.25,
+                "satis_fiyati": 7.25,
+                "reyona_giris_tarihi": "2026-04-06 10:55:29",
+                "stt": "13.04.2026"
+            }
+        ]
+    },
+    "1.2.1.BLENDAX.1": {
+        "urun_ad": "BLENDAX Kepeğe karşı etkili argan",
+        "partiler": [
+            {
+                "batch_id": "B-04061231",
+                "barkod": "VB-1012",
+                "miktar_mevcut": 10.0,
+                "maliyet": 72.65,
+                "satis_fiyati": 98.56,
+                "reyona_giris_tarihi": "2026-04-06 12:32:17",
+                "stt": "01.02.2029"
+            }
+        ]
+    },
+    "1.2.1.BLENDAX.2": {
+        "urun_ad": "BLENDAX Bahar esintisi",
+        "partiler": [
+            {
+                "batch_id": "B-04061230",
+                "barkod": "VB-1014",
+                "miktar_mevcut": 5.0,
+                "maliyet": 78.75,
+                "satis_fiyati": 95.5,
+                "reyona_giris_tarihi": "2026-04-06 12:33:00",
+                "stt": "01.12.2028"
+            }
+        ]
+    }
+}

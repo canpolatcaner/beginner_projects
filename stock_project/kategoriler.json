@@ -1,0 +1,683 @@
+{
+    "material": {
+        "1": "Sarf malzeme",
+        "2": "Tüketim malzemesi",
+        "3": "Demirbaş malzeme"
+    },
+    "last_material_id": 4,
+    "group": {
+        "1": {
+            "last_group_id": 5,
+            "1": "Ev Temizlik Ürünleri",
+            "2": "Kişisel Bakım",
+            "3": "Ambalaj ve Paketleme",
+            "4": "Mutfak Yardımcı Gereçleri",
+            "5": "Ofis Sarf Malzemeleri"
+        },
+        "2": {
+            "last_group_id": 5,
+            "1": "Süt ve Süt Ürünleri",
+            "2": "Et ve Et Ürünleri",
+            "3": "Bakliyat ve Temel Gıda",
+            "4": "Atıştırmalıklar",
+            "5": "İçecekler"
+        },
+        "3": {
+            "last_group_id": 5,
+            "1": "Elektronik ve BT",
+            "2": "Soğutma ve Teşhir",
+            "3": "Taşıma ve Depolama",
+            "4": "Ofis Mobilyaları",
+            "5": "Endüstriyel Temizlik Makineleri"
+        }
+    },
+    "product": {
+        "1": {
+            "1": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Çamaşır Deterjanı",
+                    "birim": "Kilogram"
+                },
+                "2": {
+                    "ad": "Bulaşık Tableti",
+                    "birim": "Adet"
+                },
+                "3": {
+                    "ad": "Yüzey Temizleyici",
+                    "birim": "Litre"
+                },
+                "4": {
+                    "ad": "Çamaşır Suyu",
+                    "birim": "Litre"
+                },
+                "5": {
+                    "ad": "Kireç Çözücü",
+                    "birim": "Adet"
+                },
+                "6": {
+                    "ad": "Yağ Çözücü",
+                    "birim": "Adet"
+                },
+                "7": {
+                    "ad": "Sıvı Arap Sabunu",
+                    "birim": "Litre"
+                },
+                "8": {
+                    "ad": "Yumuşatıcı",
+                    "birim": "Litre"
+                },
+                "9": {
+                    "ad": "Cam Temizleme Sıvısı",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "Sıvı Bulaşık Deterjanı",
+                    "birim": "Adet"
+                }
+            },
+            "2": {
+                "last_product_id": 11,
+                "1": {
+                    "ad": "Şampuan",
+                    "birim": "Adet"
+                },
+                "2": {
+                    "ad": "Sıvı Sabun",
+                    "birim": "Adet"
+                },
+                "3": {
+                    "ad": "Diş Macunu",
+                    "birim": "Adet"
+                },
+                "4": {
+                    "ad": "Kağıt Havlu",
+                    "birim": "Rulo"
+                },
+                "5": {
+                    "ad": "Tuvalet Kağıdı",
+                    "birim": "Rulo"
+                },
+                "6": {
+                    "ad": "Islak Mendil",
+                    "birim": "Paket"
+                },
+                "7": {
+                    "ad": "Duş Jeli",
+                    "birim": "Adet"
+                },
+                "8": {
+                    "ad": "Diş Fırçası",
+                    "birim": "Adet"
+                },
+                "9": {
+                    "ad": "Katı Sabun",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "Makyaj Pamuğu",
+                    "birim": "Paket"
+                }
+            },
+            "3": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Rulo Poşet",
+                    "birim": "Rulo"
+                },
+                "2": {
+                    "ad": "Streç Film",
+                    "birim": "Metre"
+                },
+                "3": {
+                    "ad": "Alüminyum Folyo",
+                    "birim": "Metre"
+                },
+                "4": {
+                    "ad": "Kilitli Poşet",
+                    "birim": "Paket"
+                },
+                "5": {
+                    "ad": "Büyük Boy Çöp Torbası",
+                    "birim": "Rulo"
+                },
+                "6": {
+                    "ad": "Kese Kağıdı",
+                    "birim": "Adet"
+                },
+                "7": {
+                    "ad": "Plastik Çatal",
+                    "birim": "Paket"
+                },
+                "8": {
+                    "ad": "Karton Bardak",
+                    "birim": "Paket"
+                },
+                "9": {
+                    "ad": "Pişirme Kağıdı",
+                    "birim": "Rulo"
+                },
+                "10": {
+                    "ad": "Pipet",
+                    "birim": "Paket"
+                }
+            },
+            "4": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Bulaşık Süngeri",
+                    "birim": "Adet"
+                },
+                "2": {
+                    "ad": "Mikrofiber Bez",
+                    "birim": "Adet"
+                },
+                "3": {
+                    "ad": "Bulaşık Teli",
+                    "birim": "Adet"
+                },
+                "4": {
+                    "ad": "Mutfak Eldiveni",
+                    "birim": "Çift"
+                },
+                "5": {
+                    "ad": "Kağıt Peçete",
+                    "birim": "Paket"
+                },
+                "6": {
+                    "ad": "Buzdolabı Poşeti",
+                    "birim": "Paket"
+                },
+                "7": {
+                    "ad": "Mutfak Çakmağı",
+                    "birim": "Adet"
+                },
+                "8": {
+                    "ad": "Kürdan",
+                    "birim": "Kutu"
+                },
+                "9": {
+                    "ad": "Masa Örtüsü",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "Oda Kokusu",
+                    "birim": "Adet"
+                }
+            },
+            "5": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "A4 Fotokopi Kağıdı",
+                    "birim": "Paket"
+                },
+                "2": {
+                    "ad": "Yazarkasa Rulosu",
+                    "birim": "Adet"
+                },
+                "3": {
+                    "ad": "Barkod Etiketi",
+                    "birim": "Rulo"
+                },
+                "4": {
+                    "ad": "Tükenmez Kalem",
+                    "birim": "Adet"
+                },
+                "5": {
+                    "ad": "Klasör",
+                    "birim": "Adet"
+                },
+                "6": {
+                    "ad": "Zımba Teli",
+                    "birim": "Kutu"
+                },
+                "7": {
+                    "ad": "Koli Bandı",
+                    "birim": "Adet"
+                },
+                "8": {
+                    "ad": "Yapışkanlı Not Kağıdı",
+                    "birim": "Paket"
+                },
+                "9": {
+                    "ad": "Yazıcı Kartuşu",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "Şeffaf Dosya",
+                    "birim": "Paket"
+                }
+            }
+        },
+        "2": {
+            "1": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Süt",
+                    "birim": "Litre"
+                },
+                "2": {
+                    "ad": "Yoğurt",
+                    "birim": "Kilogram"
+                },
+                "3": {
+                    "ad": "Beyaz Peynir",
+                    "birim": "Kilogram"
+                },
+                "4": {
+                    "ad": "Kaşar Peyniri",
+                    "birim": "Kilogram"
+                },
+                "5": {
+                    "ad": "Ayran",
+                    "birim": "Litre"
+                },
+                "6": {
+                    "ad": "Tereyağı",
+                    "birim": "Kilogram"
+                },
+                "7": {
+                    "ad": "Kaymak",
+                    "birim": "Adet"
+                },
+                "8": {
+                    "ad": "Labne",
+                    "birim": "Adet"
+                },
+                "9": {
+                    "ad": "Kefir",
+                    "birim": "Litre"
+                },
+                "10": {
+                    "ad": "Süzme Yoğurt",
+                    "birim": "Kilogram"
+                }
+            },
+            "2": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Dana Kuşbaşı",
+                    "birim": "Kilogram"
+                },
+                "2": {
+                    "ad": "Dana Kıyma",
+                    "birim": "Kilogram"
+                },
+                "3": {
+                    "ad": "Bütün Tavuk",
+                    "birim": "Adet"
+                },
+                "4": {
+                    "ad": "Kasap Sucuk",
+                    "birim": "Kilogram"
+                },
+                "5": {
+                    "ad": "Macar Salam",
+                    "birim": "Gram"
+                },
+                "6": {
+                    "ad": "Dana Jambon",
+                    "birim": "Gram"
+                },
+                "7": {
+                    "ad": "Tavuk Baget",
+                    "birim": "Kilogram"
+                },
+                "8": {
+                    "ad": "Pastırma",
+                    "birim": "Gram"
+                },
+                "9": {
+                    "ad": "Köfte",
+                    "birim": "Kilogram"
+                },
+                "10": {
+                    "ad": "Kuzu Pirzola",
+                    "birim": "Kilogram"
+                }
+            },
+            "3": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Osmancık Pirinç",
+                    "birim": "Kilogram"
+                },
+                "2": {
+                    "ad": "Kırmızı Mercimek",
+                    "birim": "Kilogram"
+                },
+                "3": {
+                    "ad": "Pilavlık Bulgur",
+                    "birim": "Kilogram"
+                },
+                "4": {
+                    "ad": "Nohut",
+                    "birim": "Kilogram"
+                },
+                "5": {
+                    "ad": "Kuru Fasulye",
+                    "birim": "Kilogram"
+                },
+                "6": {
+                    "ad": "Sofra Tuzu",
+                    "birim": "Adet"
+                },
+                "7": {
+                    "ad": "Toz Şeker",
+                    "birim": "Kilogram"
+                },
+                "8": {
+                    "ad": "Ayçiçek Yağı",
+                    "birim": "Litre"
+                },
+                "9": {
+                    "ad": "Sızma Zeytinyağı",
+                    "birim": "Litre"
+                },
+                "10": {
+                    "ad": "Spagetti Makarna",
+                    "birim": "Paket"
+                }
+            },
+            "4": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Sütlü Çikolata",
+                    "birim": "Adet"
+                },
+                "2": {
+                    "ad": "Tuzlu Yer Fıstığı",
+                    "birim": "Gram"
+                },
+                "3": {
+                    "ad": "Patates Cipsi",
+                    "birim": "Paket"
+                },
+                "4": {
+                    "ad": "Çikolatalı Gofret",
+                    "birim": "Adet"
+                },
+                "5": {
+                    "ad": "Yulaflı Bisküvi",
+                    "birim": "Paket"
+                },
+                "6": {
+                    "ad": "Meyveli Kek",
+                    "birim": "Adet"
+                },
+                "7": {
+                    "ad": "Peynirli Kraker",
+                    "birim": "Paket"
+                },
+                "8": {
+                    "ad": "Mısır Çerezi",
+                    "birim": "Paket"
+                },
+                "9": {
+                    "ad": "Protein Bar",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "Jelibon",
+                    "birim": "Paket"
+                }
+            },
+            "5": {
+                "last_product_id": 11,
+                "1": {
+                    "ad": "Maden Suyu",
+                    "birim": "Adet"
+                },
+                "2": {
+                    "ad": "Kola",
+                    "birim": "Litre"
+                },
+                "3": {
+                    "ad": "Portakal Suyu",
+                    "birim": "Litre"
+                },
+                "4": {
+                    "ad": "Şeftalili Soğuk Çay",
+                    "birim": "Litre"
+                },
+                "5": {
+                    "ad": "Acılı Şalgam",
+                    "birim": "Litre"
+                },
+                "6": {
+                    "ad": "Granül Kahve",
+                    "birim": "Gram"
+                },
+                "7": {
+                    "ad": "Dökme Siyah Çay",
+                    "birim": "Kilogram"
+                },
+                "8": {
+                    "ad": "Ihlamur",
+                    "birim": "Paket"
+                },
+                "9": {
+                    "ad": "Enerji İçeceği",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "Limonata",
+                    "birim": "Litre"
+                }
+            }
+        },
+        "3": {
+            "1": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Bilgisayar Monitörü",
+                    "birim": "Adet"
+                },
+                "2": {
+                    "ad": "Lazer Barkod Okuyucu",
+                    "birim": "Adet"
+                },
+                "3": {
+                    "ad": "Termal Fiş Yazıcı",
+                    "birim": "Adet"
+                },
+                "4": {
+                    "ad": "Elektronik Hassas Terazi",
+                    "birim": "Adet"
+                },
+                "5": {
+                    "ad": "Android El Terminali",
+                    "birim": "Adet"
+                },
+                "6": {
+                    "ad": "IP Güvenlik Kamerası",
+                    "birim": "Adet"
+                },
+                "7": {
+                    "ad": "VDSL Modem",
+                    "birim": "Adet"
+                },
+                "8": {
+                    "ad": "Kesintisiz Güç Kaynağı",
+                    "birim": "Adet"
+                },
+                "9": {
+                    "ad": "Personel Takip Cihazı",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "Temassız POS Cihazı",
+                    "birim": "Adet"
+                }
+            },
+            "2": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Sütlük Reyon Dolabı",
+                    "birim": "Adet"
+                },
+                "2": {
+                    "ad": "Şarküteri Tezgahı",
+                    "birim": "Adet"
+                },
+                "3": {
+                    "ad": "Sandık Tipi Dondurucu",
+                    "birim": "Adet"
+                },
+                "4": {
+                    "ad": "Salon Tipi Klima",
+                    "birim": "Adet"
+                },
+                "5": {
+                    "ad": "Duvar Raf Ünitesi",
+                    "birim": "Adet"
+                },
+                "6": {
+                    "ad": "Çift Yönlü Orta Reyon",
+                    "birim": "Adet"
+                },
+                "7": {
+                    "ad": "Ahşap Ekmek Standı",
+                    "birim": "Adet"
+                },
+                "8": {
+                    "ad": "Eğimli Manav Tezgahı",
+                    "birim": "Adet"
+                },
+                "9": {
+                    "ad": "Cam Kapaklı İçecek Dolabı",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "Metal Tadım Standı",
+                    "birim": "Adet"
+                }
+            },
+            "3": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "100 Litre Market Arabası",
+                    "birim": "Adet"
+                },
+                "2": {
+                    "ad": "Plastik El Sepeti",
+                    "birim": "Adet"
+                },
+                "3": {
+                    "ad": "Manuel Transpalet",
+                    "birim": "Adet"
+                },
+                "4": {
+                    "ad": "Ağır Yük Depo Rafı",
+                    "birim": "Adet"
+                },
+                "5": {
+                    "ad": "4 Basamaklı Merdiven",
+                    "birim": "Adet"
+                },
+                "6": {
+                    "ad": "İki Tekerlekli Yük Arabası",
+                    "birim": "Adet"
+                },
+                "7": {
+                    "ad": "Tekerlekli İstif Sepeti",
+                    "birim": "Adet"
+                },
+                "8": {
+                    "ad": "Akülü Forklift",
+                    "birim": "Adet"
+                },
+                "9": {
+                    "ad": "Euro Plastik Palet",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "Ürün Toplama Arabası",
+                    "birim": "Adet"
+                }
+            },
+            "4": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Kasa Bankosu",
+                    "birim": "Adet"
+                },
+                "2": {
+                    "ad": "L Tipi Ofis Masası",
+                    "birim": "Adet"
+                },
+                "3": {
+                    "ad": "Fileli Çalışma Koltuğu",
+                    "birim": "Adet"
+                },
+                "4": {
+                    "ad": "Çelik Klasör Dolabı",
+                    "birim": "Adet"
+                },
+                "5": {
+                    "ad": "12'li Soyunma Dolabı",
+                    "birim": "Adet"
+                },
+                "7": {
+                    "ad": "Çok Fonksiyonlu Para Sayma Makinesi",
+                    "birim": "Adet"
+                },
+                "8": {
+                    "ad": "Zırhlı Para Kasası",
+                    "birim": "Adet"
+                },
+                "9": {
+                    "ad": "Personel Yemek Masası",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "Ayaklı Askılık",
+                    "birim": "Adet"
+                }
+            },
+            "5": {
+                "last_product_id": 10,
+                "1": {
+                    "ad": "Binicili Yer Yıkama Makinesi",
+                    "birim": "Adet"
+                },
+                "2": {
+                    "ad": "Islak-Kuru Sanayi Süpürgesi",
+                    "birim": "Adet"
+                },
+                "3": {
+                    "ad": "Buharlı Temizleme Cihazı",
+                    "birim": "Adet"
+                },
+                "4": {
+                    "ad": "Basınçlı Oto Yıkama Makinesi",
+                    "birim": "Adet"
+                },
+                "5": {
+                    "ad": "800 Litre Çöp Konteyneri",
+                    "birim": "Adet"
+                },
+                "6": {
+                    "ad": "Çift Kovalı Temizlik Arabası",
+                    "birim": "Adet"
+                },
+                "7": {
+                    "ad": "Paspas Sıkma Presi",
+                    "birim": "Adet"
+                },
+                "8": {
+                    "ad": "Alüminyum Sürgülü Merdiven",
+                    "birim": "Adet"
+                },
+                "9": {
+                    "ad": "Sırt Tipi İlaçlama Pompası",
+                    "birim": "Adet"
+                },
+                "10": {
+                    "ad": "6 KG Yangın Söndürme Tüpü",
+                    "birim": "Adet"
+                }
+            }
+        }
+    }
+}
