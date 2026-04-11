@@ -45,6 +45,9 @@
   </tr>
 </table>
 
-
 ## *_stock_project_*
-<video src="[sha256:4495d1730ddc5f12c35cd1dba59512af636a0bdfcd4f7196dad7d12022238b54](https://github.com/canpolatcaner/beginner_projects/releases/download/v1.0.0/retail_automation.mp4)" width="100%" controls></video>
+
+<div align="center">
+  <video src="https://github.com/canpolatcaner/beginner_projects/releases/download/v1.0.0/retail_automation.mp4" width="100%" controls></video>
+</div>
+
