@@ -45,7 +45,6 @@
   </tr>
 </table>
 
-
 ## *_stock_project_*
 
 <div align="center">
