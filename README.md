@@ -48,6 +48,6 @@
 ## *_stock_project_*
 
 <div align="center">
-  <video src="https://github.com/canpolatcaner/beginner_projects/releases/download/v1.0.0/retail_automation.mp4" width="800" controls>
-  </video>
+  <video src="https://github.com/canpolatcaner/beginner_projects/releases/download/v1.0.0/retail_automation_480px.mp4" width="800" controls>
+    </video>
 </div>
