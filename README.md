@@ -47,5 +47,4 @@
 
 
 ## *_stock_project_*
-<p><img src="images/workinprog.JPG" alt="winp" width="150" height="150">
-</p>
+<video src="sha256:4495d1730ddc5f12c35cd1dba59512af636a0bdfcd4f7196dad7d12022238b54" width="100%" controls></video>
