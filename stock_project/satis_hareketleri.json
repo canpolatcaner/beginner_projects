@@ -9,6 +9,36 @@
             "maliyet": 6.78,
             "satis_fiyati": 0,
             "toplam": 0.0
+        },
+        {
+            "satis_zamani": "2026-04-11 17:49:11",
+            "urun_id": "1.1.1.PERWOLL.2",
+            "urun_ad": "PERWOLL Renkli sıvı deterjan 50 yıkama",
+            "batch_id": "IADE-04021449",
+            "miktar": 1.0,
+            "maliyet": 0,
+            "satis_fiyati": 0,
+            "toplam": 0.0
+        },
+        {
+            "satis_zamani": "2026-04-11 18:18:25",
+            "urun_id": "1.7.1.DENEME SIVI.1",
+            "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+            "batch_id": "B-04111814",
+            "miktar": 5.0,
+            "maliyet": 123.0,
+            "satis_fiyati": 153.0,
+            "toplam": 765.0
+        },
+        {
+            "satis_zamani": "2026-04-11 18:18:35",
+            "urun_id": "1.7.1.DENEME SIVI.1",
+            "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+            "batch_id": "B-04111814",
+            "miktar": 10.0,
+            "maliyet": 123.0,
+            "satis_fiyati": 153.0,
+            "toplam": 1530.0
         }
     ]
 }

@@ -233,5 +233,14 @@
                 "barkod": "VB-1013"
             }
         }
+    },
+    "1.7.1": {
+        "DENEME SIVI": {
+            "1": {
+                "tam_ad": "DENEME SIVI Bakalım olmuş mu?",
+                "birim": "Paket",
+                "barkod": "123456"
+            }
+        }
     }
 }

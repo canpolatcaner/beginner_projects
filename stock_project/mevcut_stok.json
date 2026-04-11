@@ -103,5 +103,49 @@
                 "giris_zamani": "2026-04-06 12:31"
             }
         ]
+    },
+    "1.1.1.BINGO.2": {
+        "urun_ad": "BINGO Soft deterjan",
+        "partiler": [
+            {
+                "batch_id": "B-04111743",
+                "miktar_mevcut": 39.0,
+                "maliyet": 92.54,
+                "lokasyon": "07-B12",
+                "stt": "01.05.2028",
+                "giris_zamani": "2026-04-11 17:43"
+            }
+        ]
+    },
+    "1.2.1.HEAD & SHOULDER.1": {
+        "urun_ad": "HEAD & SHOULDER Naneli",
+        "partiler": [
+            {
+                "batch_id": "B-04111810",
+                "miktar_mevcut": 7.0,
+                "maliyet": 98.25,
+                "lokasyon": "07-B25",
+                "stt": "01.02.2029",
+                "giris_zamani": "2026-04-11 18:10"
+            }
+        ]
+    },
+    "1.7.1.DENEME SIVI.1": {
+        "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+        "partiler": [
+            {
+                "batch_id": "IADE-04111818",
+                "miktar_mevcut": 0.0,
+                "maliyet": 0,
+                "lokasyon": "IADE-RAFI",
+                "stt": "01.01.2099",
+                "giris_zamani": "2026-04-11 18:18:59",
+                "not": "Müşteri İadesi (Sağlam)"
+            }
+        ]
+    },
+    "1.7.1.DENEME.1": {
+        "urun_ad": "DENEME Katı",
+        "partiler": []
     }
 }

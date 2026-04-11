@@ -17,15 +17,6 @@
         "urun_ad": "PERWOLL Renkli sıvı deterjan 50 yıkama",
         "partiler": [
             {
-                "batch_id": "IADE-04021449",
-                "miktar_mevcut": 1.0,
-                "maliyet": 0,
-                "satis_fiyati": 0,
-                "reyona_giris_tarihi": "2026-04-02 14:56:02",
-                "stt": "01.01.2099",
-                "son_satis_zamani": null
-            },
-            {
                 "batch_id": "IADE-04021454",
                 "barkod": "00010101814545",
                 "miktar_mevcut": 4.0,
@@ -104,6 +95,108 @@
                 "satis_fiyati": 95.5,
                 "reyona_giris_tarihi": "2026-04-06 12:33:00",
                 "stt": "01.12.2028"
+            }
+        ]
+    },
+    "1.1.1.BINGO.2": {
+        "urun_ad": "BINGO Soft deterjan",
+        "partiler": [
+            {
+                "batch_id": "B-04111743",
+                "barkod": "00010101834546",
+                "miktar_mevcut": 10.0,
+                "maliyet": 92.54,
+                "satis_fiyati": 146.28,
+                "reyona_giris_tarihi": "2026-04-11 17:44:22",
+                "stt": "01.05.2028"
+            }
+        ]
+    },
+    "1.2.1.HEAD & SHOULDER.1": {
+        "urun_ad": "HEAD & SHOULDER Naneli",
+        "partiler": [
+            {
+                "batch_id": "B-04111810",
+                "barkod": "VB-1013",
+                "miktar_mevcut": 15.0,
+                "maliyet": 98.25,
+                "satis_fiyati": 123.5,
+                "reyona_giris_tarihi": "2026-04-11 18:11:10",
+                "stt": "01.02.2029"
+            }
+        ]
+    },
+    "1.7.1.DENEME SIVI.1": {
+        "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+        "partiler": [
+            {
+                "batch_id": "B-04111814",
+                "barkod": "123456",
+                "miktar_mevcut": 5.0,
+                "maliyet": 123.0,
+                "satis_fiyati": 153.0,
+                "reyona_giris_tarihi": "2026-04-11 18:14:59",
+                "stt": "02.05.2029",
+                "son_satis_zamani": "2026-04-11 18:18:35"
+            },
+            {
+                "batch_id": "B-04111814",
+                "barkod": "123456",
+                "miktar_mevcut": 5.0,
+                "maliyet": 123.0,
+                "satis_fiyati": 160.0,
+                "reyona_giris_tarihi": "2026-04-11 18:17:20",
+                "stt": "02.05.2029"
+            },
+            {
+                "batch_id": "B-04111814",
+                "barkod": "123456",
+                "miktar_mevcut": 15.0,
+                "maliyet": 150.0,
+                "satis_fiyati": 160.0,
+                "reyona_giris_tarihi": "2026-04-11 18:17:20",
+                "stt": "12.08.2030"
+            },
+            {
+                "batch_id": "B-04111824",
+                "barkod": "123456",
+                "miktar_mevcut": 5.0,
+                "maliyet": 150.0,
+                "satis_fiyati": 175.0,
+                "reyona_giris_tarihi": "2026-04-11 18:24:55",
+                "stt": "02.01.2089"
+            },
+            {
+                "batch_id": "IADE-04111818",
+                "barkod": "123456",
+                "miktar_mevcut": 10.0,
+                "maliyet": 0,
+                "satis_fiyati": 175.0,
+                "reyona_giris_tarihi": "2026-04-11 18:24:55",
+                "stt": "01.01.2099"
+            }
+        ]
+    },
+    "1.7.1.DENEME.1": {
+        "urun_ad": "DENEME Katı",
+        "partiler": [
+            {
+                "batch_id": "B-04111826",
+                "barkod": "456123",
+                "miktar_mevcut": 12.0,
+                "maliyet": 165.0,
+                "satis_fiyati": 185.0,
+                "reyona_giris_tarihi": "2026-04-11 18:27:04",
+                "stt": "01.05.2027"
+            },
+            {
+                "batch_id": "B-04111826",
+                "barkod": "456123",
+                "miktar_mevcut": 25.0,
+                "maliyet": 150.0,
+                "satis_fiyati": 185.0,
+                "reyona_giris_tarihi": "2026-04-11 18:27:04",
+                "stt": "01.02.2028"
             }
         ]
     }

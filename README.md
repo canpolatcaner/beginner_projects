@@ -47,5 +47,7 @@
 
 
 ## *_stock_project_*
-<p><img src="images/workinprog.JPG" alt="winp" width="150" height="150">
-</p>
+
+<div align="center">
+  <video src="<video controls src="https://github.com/canpolatcaner/beginner_projects/releases/download/v1.0.0/retail_automation.mp4" title="retail_automation"></video>" width="100%" controls></video>
+</div>
