@@ -48,5 +48,5 @@
 ## *_stock_project_*
 
 <div align="center">
-  <video src="https://github.com/user-attachments/assets/bb6d8c59-ff14-4e0f-a6cf-1d8482c4f95a" width="100%" controls title="Retail Automation Software Demo></video>
+  <video src="https://github.com/user-attachments/assets/bb6d8c59-ff14-4e0f-a6cf-1d8482c4f95a" width="100%" controls title="Retail Automation Software Demo"></video>
 </div>
