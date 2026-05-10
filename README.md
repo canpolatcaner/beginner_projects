@@ -54,5 +54,5 @@
 ## *_new_age_stock_management_project_*
 
 <div align="center">
-  <video src="https://github.com/canpolatcaner/beginner_projects/releases/download/v3.0.0/new_gen__stock_project.mp4" width="100%" controls title="Retail Automation Software"></video>
+  <video src="https://github.com/user-attachments/assets/df43b963-de93-42bb-b429-dad862ade08b" width="100%" controls title="Retail Automation Software"></video>
 </div>
