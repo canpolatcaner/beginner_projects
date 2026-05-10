@@ -58,5 +58,25 @@
                 "arsiv_tarihi": "2026-03-30"
             }
         }
+    },
+    "1.1.1": {
+        "BINGO": {
+            "4": {
+                "tam_ad": "BINGO 0",
+                "birim": "Adet",
+                "barkod": "VB-1016",
+                "arsiv_tarihi": "2026-03-30"
+            }
+        }
+    },
+    "1.7.1": {
+        "DENEME": {
+            "1": {
+                "tam_ad": "DENEME Katı",
+                "birim": "Kg",
+                "barkod": "456123",
+                "arsiv_tarihi": "2026-03-30"
+            }
+        }
     }
 }

@@ -227,6 +227,146 @@
             "kaynak_lokasyon": "09-C3",
             "stt": "01.12.2028",
             "batch_id": "B-04061230"
+        },
+        {
+            "zaman": "2026-04-11 17:44:22",
+            "urun_id": "1.1.1.BINGO.2",
+            "urun_ad": "BINGO Soft deterjan",
+            "miktar": 10.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "07-B12",
+            "stt": "01.05.2028",
+            "batch_id": "B-04111743"
+        },
+        {
+            "zaman": "2026-04-11 17:44:40",
+            "urun_id": "1.1.1.BINGO.2",
+            "urun_ad": "BINGO Soft deterjan",
+            "miktar": 1.0,
+            "islem": "STOK_ANORMAL_DUSUS (Müşteri Geri İade)",
+            "neden": "1- Satıştan Geri İade - 1- Bozuk Ürün",
+            "kaynak_lokasyon": "07-B12",
+            "stt": "01.05.2028",
+            "batch_id": "B-04111743"
+        },
+        {
+            "zaman": "2026-04-11 18:10:53",
+            "urun_id": "1.2.1.HEAD & SHOULDER.1",
+            "urun_ad": "HEAD & SHOULDER Naneli",
+            "miktar": 3.0,
+            "islem": "STOK_ANORMAL_DUSUS (Depodan İade)",
+            "neden": "2- Depodan İade - 2- Uygunsuz Ürün",
+            "kaynak_lokasyon": "07-B25",
+            "stt": "01.02.2029",
+            "batch_id": "B-04111810"
+        },
+        {
+            "zaman": "2026-04-11 18:11:10",
+            "urun_id": "1.2.1.HEAD & SHOULDER.1",
+            "urun_ad": "HEAD & SHOULDER Naneli",
+            "miktar": 15.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "07-B25",
+            "stt": "01.02.2029",
+            "batch_id": "B-04111810"
+        },
+        {
+            "zaman": "2026-04-11 18:14:59",
+            "urun_id": "1.7.1.DENEME SIVI.1",
+            "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+            "miktar": 20.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "12-45",
+            "stt": "02.05.2029",
+            "batch_id": "B-04111814"
+        },
+        {
+            "zaman": "2026-04-11 18:17:20",
+            "urun_id": "1.7.1.DENEME SIVI.1",
+            "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+            "miktar": 5.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "12-45",
+            "stt": "02.05.2029",
+            "batch_id": "B-04111814"
+        },
+        {
+            "zaman": "2026-04-11 18:17:20",
+            "urun_id": "1.7.1.DENEME SIVI.1",
+            "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+            "miktar": 15.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "12-45",
+            "stt": "12.08.2030",
+            "batch_id": "B-04111814"
+        },
+        {
+            "zaman": "2026-04-11 18:19:09",
+            "urun_id": "1.7.1.DENEME SIVI.1",
+            "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+            "miktar": 5.0,
+            "islem": "MUSTERI_IADE_KUSURLU",
+            "neden": "kapağı kırık"
+        },
+        {
+            "zaman": "2026-04-11 18:24:55",
+            "urun_id": "1.7.1.DENEME SIVI.1",
+            "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+            "miktar": 5.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "IADE-RAFI",
+            "stt": "02.01.2089",
+            "batch_id": "B-04111824"
+        },
+        {
+            "zaman": "2026-04-11 18:24:55",
+            "urun_id": "1.7.1.DENEME SIVI.1",
+            "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+            "miktar": 10.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "IADE-RAFI",
+            "stt": "01.01.2099",
+            "batch_id": "IADE-04111818"
+        },
+        {
+            "zaman": "2026-04-11 18:27:04",
+            "urun_id": "1.7.1.DENEME.1",
+            "urun_ad": "DENEME Katı",
+            "miktar": 12.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "02-H45",
+            "stt": "01.05.2027",
+            "batch_id": "B-04111826"
+        },
+        {
+            "zaman": "2026-04-11 18:27:04",
+            "urun_id": "1.7.1.DENEME.1",
+            "urun_ad": "DENEME Katı",
+            "miktar": 25.0,
+            "islem": "DEPO_CIKIS_REYON_GIRIS",
+            "neden": "Normal",
+            "kaynak_lokasyon": "02-H45",
+            "stt": "01.02.2028",
+            "batch_id": "B-04111826"
+        },
+        {
+            "zaman": "2026-04-11 18:52:55",
+            "urun_id": "1.7.1.DENEME SIVI.1",
+            "urun_ad": "DENEME SIVI Bakalım olmuş mu?",
+            "miktar": 10.0,
+            "islem": "STOK_ANORMAL_DUSUS (Depodan İade)",
+            "neden": "2- Depodan İade - 2- Uygunsuz Ürün",
+            "kaynak_lokasyon": "IADE-RAFI",
+            "stt": "01.01.2099",
+            "batch_id": "IADE-04111818"
         }
     ]
 }
