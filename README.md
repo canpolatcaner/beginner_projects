@@ -1,8 +1,3 @@
-
-
-https://github.com/user-attachments/assets/d1bf0b77-170a-447e-a13b-f584a9bedf8a
-
-
 <p><img src="images/beg_foto.JPG" alt="singethinkingLogo">
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXhydXF4a3NxNjdyYTYzd2pvZjc4dmdwcmt5eHZjdTJoa3VkdG1hcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/777Aby0ZetYE8/giphy.gif" alt="thinkGif" width=250 height=200></p>
 
