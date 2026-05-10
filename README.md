@@ -50,3 +50,9 @@
 <div align="center">
   <video src="https://github.com/user-attachments/assets/bb6d8c59-ff14-4e0f-a6cf-1d8482c4f95a" width="100%" controls title="Retail Automation Software Demo"></video>
 </div>
+
+## *_new_age_stock_management_project_*
+
+<div align="center">
+  <video src="https://github.com/canpolatcaner/beginner_projects/releases/download/v3.0.0/new_gen__stock_project.mp4" width="100%" controls title="Retail Automation Software"></video>
+</div>
