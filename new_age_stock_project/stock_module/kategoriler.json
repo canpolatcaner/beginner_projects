@@ -380,7 +380,7 @@
                 }
             },
             "4": {
-                "last_product_id": 10,
+                "last_product_id": 11,
                 "1": {
                     "ad": "Sütlü Çikolata",
                     "birim": "Adet"
@@ -420,6 +420,10 @@
                 "10": {
                     "ad": "Jelibon",
                     "birim": "Paket"
+                },
+                "11": {
+                    "ad": "Bisküvi",
+                    "birim": "Adet"
                 }
             },
             "5": {
@@ -511,7 +515,7 @@
                 }
             },
             "2": {
-                "last_product_id": 10,
+                "last_product_id": 11,
                 "1": {
                     "ad": "Sütlük Reyon Dolabı",
                     "birim": "Adet"
@@ -550,6 +554,10 @@
                 },
                 "10": {
                     "ad": "Metal Tadım Standı",
+                    "birim": "Adet"
+                },
+                "11": {
+                    "ad": "Buzdolabı (dondurma)",
                     "birim": "Adet"
                 }
             },

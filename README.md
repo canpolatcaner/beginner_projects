@@ -1,4 +1,3 @@
-
 <p><img src="images/beg_foto.JPG" alt="singethinkingLogo">
 <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXhydXF4a3NxNjdyYTYzd2pvZjc4dmdwcmt5eHZjdTJoa3VkdG1hcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/777Aby0ZetYE8/giphy.gif" alt="thinkGif" width=250 height=200></p>
 
@@ -45,7 +44,14 @@
   </tr>
 </table>
 
-
 ## *_stock_project_*
-<p><img src="images/workinprog.JPG" alt="winp" width="150" height="150">
-</p>
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/bb6d8c59-ff14-4e0f-a6cf-1d8482c4f95a" width="100%" controls title="Retail Automation Software Demo"></video>
+</div>
+
+## *_new_age_stock_management_project_*
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/df43b963-de93-42bb-b429-dad862ade08b" width="100%" controls title="Retail Automation Software"></video>
+</div>

@@ -10,6 +10,22 @@
                 "reyona_giris_tarihi": "2026-04-02 14:29:20",
                 "stt": "30.03.2030",
                 "son_satis_zamani": null
+            },
+            {
+                "batch_id": "B-20260330164852",
+                "miktar_mevcut": 2.0,
+                "maliyet": 68.27,
+                "satis_fiyati": 79.25,
+                "reyona_giris_tarihi": "2026-05-09 21:23:34",
+                "stt": "30.03.2030"
+            },
+            {
+                "batch_id": "B-20260330164852",
+                "miktar_mevcut": 3.0,
+                "maliyet": 68.27,
+                "satis_fiyati": 85.56,
+                "reyona_giris_tarihi": "2026-05-09 21:27:33",
+                "stt": "30.03.2030"
             }
         ]
     },
@@ -197,6 +213,19 @@
                 "satis_fiyati": 185.0,
                 "reyona_giris_tarihi": "2026-04-11 18:27:04",
                 "stt": "01.02.2028"
+            }
+        ]
+    },
+    "1.1.1.PERWOLL.1": {
+        "urun_ad": "PERWOLL Renkliler sıvı çamaşır deterjanı (2,97 l)",
+        "partiler": [
+            {
+                "batch_id": "B-20260509170630",
+                "miktar_mevcut": 10.0,
+                "maliyet": 125.56,
+                "satis_fiyati": 158.16,
+                "reyona_giris_tarihi": "2026-05-09 17:07:40",
+                "stt": "01.12.2035"
             }
         ]
     }

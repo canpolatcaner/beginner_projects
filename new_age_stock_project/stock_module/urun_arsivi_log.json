@@ -2,10 +2,10 @@
     "2.1.1": {
         "DOST": {
             "2": {
-                "tam_ad": "DOST Süt 1 lt",
-                "birim": "1",
-                "barkod": "VB-1008",
-                "arsiv_tarihi": "2026-03-30"
+                "tam_ad": "DOST Tam yağlı 200 ml",
+                "birim": "Adet",
+                "barkod": "VB-1016",
+                "arsiv_tarihi": "2026-05-09 21:28:51"
             }
         }
     },
@@ -56,6 +56,14 @@
                 "birim": "Paket 80 gr",
                 "barkod": "000101018272022",
                 "arsiv_tarihi": "2026-03-30"
+            }
+        },
+        "SVETOCOPY A4 FOTOKOPI KAĞIDI": {
+            "1": {
+                "tam_ad": "SVETOCOPY A4 FOTOKOPI KAĞIDI A4 fotokopi kağıdı",
+                "birim": "(2'li paket) 80 gr 1000 adet",
+                "barkod": "000101018292020",
+                "arsiv_tarihi": "2026-05-09 21:34:39"
             }
         }
     },
