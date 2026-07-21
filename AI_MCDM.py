@@ -171,63 +171,102 @@ class PreprocessingWizard(QMainWindow):
             self.load_file(file_path)
 
     def load_file(self, file_path):
-        self.structural_bad_lines = {}
-        self.cell_issue_rows = set()
-        self.list_bad_lines.clear()
-        
-        ext = os.path.splitext(file_path)[1].lower()
-        
-        try:
-            if ext == '.csv':
-                with open(file_path, 'r', encoding='utf-8') as f:
-                    lines = f.readlines()
-                
-                if not lines:
-                    raise ValueError("Seçilen dosya boş!")
-                
-                self.headers = [h.strip() for h in lines[0].split(',')]
-                expected_cols = len(self.headers)
-                
-                all_rows = []
-                structural_counter = 0
-                for idx, line in enumerate(lines[1:], start=0):
-                    parts = [p.strip() for p in line.split(',')]
-                    if len(parts) == expected_cols:
-                        all_rows.append(parts)
-                    else:
-                        # Bozuk satırlar için placeholder (NaN) ekliyoruz
-                        all_rows.append([np.nan] * expected_cols)
-                        self.structural_bad_lines[idx] = line.strip()
-                
-                self.df = pd.DataFrame(all_rows, columns=self.headers)
-                
-            elif ext in ['.xlsx', '.xls']:
-                # 1. Excel dosyasını oku
-                self.df = pd.read_excel(file_path)
+            self.structural_bad_lines = {}
+            self.cell_issue_rows = set()
+            self.list_bad_lines.clear()
+            
+            ext = os.path.splitext(file_path)[1].lower()
+            
+            try:
+                if ext == '.csv':
+                    # utf-8 tutmazsa Türkçe sistemlerde yaygın olan cp1254/iso-8859-9 dene
+                    try:
+                        with open(file_path, 'r', encoding='utf-8') as f:
+                            lines = f.readlines()
+                    except UnicodeDecodeError:
+                        with open(file_path, 'r', encoding='cp1254') as f:
+                            lines = f.readlines()
+                    
+                    if not lines:
+                        raise ValueError("Seçilen dosya boş!")
+                    
+                    self.headers = [h.strip() for h in lines[0].split(',')]
+                    expected_cols = len(self.headers)
+                    
+                    all_rows = []
+                    for idx, line in enumerate(lines[1:], start=0):
+                        parts = [p.strip() for p in line.split(',')]
+                        if len(parts) == expected_cols:
+                            all_rows.append(parts)
+                        else:
+                            all_rows.append([np.nan] * expected_cols)
+                            self.structural_bad_lines[idx] = line.strip()
+                    
+                    self.df = pd.DataFrame(all_rows, columns=self.headers)
+                    
+                elif ext in ['.xlsx', '.xls']:
+                    # Excel dosyaları open() ile DEĞİL, doğrudan pandas ile okunur
+                    self.df = pd.read_excel(file_path)
+                    
+                    if self.df.empty:
+                        raise ValueError("Seçilen dosya boş!")
+                    
+                    self.headers = list(self.df.columns)
 
-                # 2. Sütun başlıklarında (kolon isimlerinde) tarih varsa onları string'e çevir
-                self.df.columns = [str(col).strip() for col in self.df.columns]
+                    # Kolon isimlerini string'e çevir ve temizle
+                    self.df.columns = [str(col).strip() for col in self.df.columns]
 
-                # 3. DataFrame içindeki tüm hücreleri tara: 
-                # Eğer hücre bir datetime veya Timestamp ise onu güvenli bir şekilde string'e dönüştür
-                self.df = self.df.applymap(lambda x: x.strftime('%Y-%m-%d %H:%M:%S') if hasattr(x, 'strftime') and not pd.isnull(x) else x)
-                
-                self.df = pd.read_json(file_path)
-                self.headers = list(self.df.columns)
-            else:
-                raise ValueError("Desteklenmeyen dosya formatı!")
+                    # Tarih/Timestamp tiplerini güvenli string'e dönüştür
+                    self.df = self.df.applymap(
+                        lambda x: x.strftime('%Y-%m-%d %H:%M:%S') 
+                        if hasattr(x, 'strftime') and not pd.isnull(x) 
+                        else x
+                    )
 
-            # Metin temizlik adımları
-            text_cols = self.df.select_dtypes(include=['object']).columns
-            for col in text_cols:
-                self.df[col] = self.df[col].replace(r'^\s*$', np.nan, regex=True)
-                self.df[col] = self.df[col].replace(['None', 'none', 'NaN', 'nan'], np.nan)             
+                elif ext == '.json':
+                    import json
 
-            self.drop_area.setText(f"Yüklenen Dosya: {os.path.basename(file_path)}")
-            self.analyze_and_populate_table()
+                    # 1. Dosyayı doğrudan Pandas ile değil, standart json kütüphanesiyle ham olarak okuyun
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        data = json.load(f)
 
-        except Exception as e:
-            QMessageBox.critical(self, "Kritik Dosya Hatası", f"Dosya işlenirken hata oluştu:\n{str(e)}")
+                    # 2. Eğer dosya boşsa kontrolü
+                    if not data:
+                        raise ValueError("Seçilen dosya boş!")
+
+                    # 3. Ham veri üzerinden DataFrame oluşturun (Otomatik datetime dönüşümünü engeller)
+                    self.df = pd.DataFrame(data)
+                    self.headers = list(self.df.columns)
+
+                    # 4. Sadece metin/tarih içeren kolonlarda temizlik yap (Sayısal kolonlara dokunmaz!)
+                    for col in self.df.columns:
+                        if self.df[col].dtype == 'object':
+                            # Hücrelerin içinde datetime nesnesi kaldıysa string'e çevir
+                            self.df[col] = self.df[col].apply(
+                                lambda x: x.strftime('%Y-%m-%d %H:%M:%S') 
+                                if hasattr(x, 'strftime') and not pd.isnull(x) 
+                                else x
+                            )
+            
+       
+
+   
+
+
+                else:
+                    raise ValueError("Desteklenmeyen dosya formatı!")
+
+                # Metin temizlik adımları
+                text_cols = self.df.select_dtypes(include=['object']).columns
+                for col in text_cols:
+                    self.df[col] = self.df[col].replace(r'^\s*$', np.nan, regex=True)
+                    self.df[col] = self.df[col].replace(['None', 'none', 'NaN', 'nan'], np.nan)             
+
+                self.drop_area.setText(f"Yüklenen Dosya: {os.path.basename(file_path)}")
+                self.analyze_and_populate_table()
+
+            except Exception as e:
+                QMessageBox.critical(self, "Kritik Dosya Hatası", f"Dosya işlenirken hata oluştu:\n{str(e)}")
             
 
     def get_actual_numeric_columns(self):
