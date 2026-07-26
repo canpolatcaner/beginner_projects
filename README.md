@@ -55,3 +55,9 @@
 <div align="center">
   <video src="https://github.com/user-attachments/assets/df43b963-de93-42bb-b429-dad862ade08b" width="100%" controls title="Retail Automation Software"></video>
 </div>
+
+## *_pc_distance_control_project_*
+
+<div align="center">
+  #The video is coming soon...
+</div>
