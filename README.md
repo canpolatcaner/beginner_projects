@@ -59,5 +59,41 @@
 ## *_pc_distance_control_project_*
 
 <div align="center">
-  #The video is coming soon...
+  <table width="100%">
+  <tr>
+    <td colspan="6" align="center">
+      <br><b>Machine Remote Control using Hand Tracking combines a webcam, OpenCv, and MediaPipe or TensorFlow for landmark detection. The versions of both MediaPipe and TensorFlow are available in this project folder.</b><br><br>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="images/next_down.JPG" alt="altmenu1" width="150" height="250"/><br>
+      Next and/or Down
+    </td>
+    <td align="center">
+      <img src="images/previous_up.JPG" alt="altmenu2" width="150" height="250"/><br>
+      Previous and/or Up
+    </td>
+    <td align="center">
+      <img src="images/close.JPG" alt="altmenu3" width="150" height="250"/><br>
+      Close 
+    </td>
+    <td align="center">
+      <img src="images/enter.JPG" alt="altmenu4" width="150" height="250"/><br>
+      Open and/or Enter
+    </td>
+     <td align="center">
+      <img src="images/full_ecran.JPG" alt="altmenu4" width="150" height="250"/><br>
+      Full Screan Mode
+    </td>
+     <td align="center">
+      <img src="images/escape_dim_size.JPG" alt="altmenu4" width="150" height="250"/><br>
+      Windowed Mode
+    </td>
+    <div align="center">
+  <video src="https://github.com/canpolatcaner/beginner_projects/releases/download/v1.0.0.0/remote_control_by_hand.mp4" width="100%" controls title="dist_contr_tensor_hand_landmark"></video>
+</div>
+    
+  </tr>
+</table>
 </div>
