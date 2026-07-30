@@ -91,7 +91,7 @@
       Windowed Mode
     </td>
     <div align="center">
-  <video src="https://github.com/canpolatcaner/beginner_projects/releases/download/v1.0.0.0/remote_control_by_hand.mp4" width="100%" controls title="dist_contr_tensor_hand_landmark"></video>
+  <video src="sha256:e9354e15e46f00996779b755321e077f3848e58905affd306a6245f807a1bd54" width="100%" controls title="dist_contr_tensor_hand_landmark"></video>
 </div>
     
   </tr>
