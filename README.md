@@ -96,6 +96,6 @@
 
 <br>
     <div align="center">
-  <video src="sha256:e9354e15e46f00996779b755321e077f3848e58905affd306a6245f807a1bd54" width="100%" controls title="dist_contr_tensor_hand_landmark"></video>
+  <video src="https://github.com/user-attachments/assets/1c3c1cc9-326c-4690-b50f-40c288524885" width="100%" controls title="dist_contr_tensor_hand_landmark"></video>
     </div>
 </div>
