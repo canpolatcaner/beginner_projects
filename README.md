@@ -90,10 +90,12 @@
       <img src="images/escape_dim_size.JPG" alt="altmenu4" width="150" height="250"/><br>
       Windowed Mode
     </td>
-    <div align="center">
-  <video src="sha256:e9354e15e46f00996779b755321e077f3848e58905affd306a6245f807a1bd54" width="100%" controls title="dist_contr_tensor_hand_landmark"></video>
-</div>
     
   </tr>
 </table>
+
+<br>
+    <div align="center">
+  <video src="sha256:e9354e15e46f00996779b755321e077f3848e58905affd306a6245f807a1bd54" width="100%" controls title="dist_contr_tensor_hand_landmark"></video>
+    </div>
 </div>
